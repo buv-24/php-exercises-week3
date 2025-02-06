@@ -178,22 +178,46 @@ $person = [
 </div>
 
 <div class="grid-item">
-Övning 12: <h2>
-</h2>
+Övning 12: <h2>Blogg</h2>
 <?php
+//Skapa en blogg där du som användare kan:
+// Skriva inlägg via ett formulär.
+// Se alla inlägg på en sida.
+// Varje inlägg sparas som en separat fil till exempel: "posts/2025-02-06-title.txt)".
 
 ?>
 
 </div>
 
 <div class="grid-item">
-Övning 13: <h2></h2>
+Övning 13: <h2>Retro Game Warehouse</h2>
 <?php
+
+// Bygg ett enkelt lagerhanteringssystem där:
+// Produkter lagras i en CSV-fil (inventory.csv).
+// Varje produkt har ett namn, antal i lager och pris.
+//Konvertera CSV-rader till en associativ array och tillbaka.
+//Formulär behövs inte men följande funktionalitet krävs:
+//Ändringar i arrayen ska kunna sparas i CSV-fil, 
+//och ändringar i CSV-fil ska ändra arrayen (vid refresh).
 
 
 ?>
 
+
 </div>
+
+<div class="grid-item">
+Övning 14: <h2>Pub quiz</h2>
+<?php
+//Skapa ett quiz där frågorna och svaren lagras i en JSON-fil (quiz.json).
+// Varje fråga har ett eller flera alternativ och ett rätt svar.
+// Användaren får poäng för rätt svar och ser sitt resultat i slutet.
+// Skapa ett formulär med radioknappar som val av 1, X eller 2 (3-valsfrågor).
+
+
+?>
+
 </div>
 
 </body>
